@@ -1,0 +1,80 @@
+body{
+    background-color: darkblue;
+}
+h1{
+    font-size: 70px;
+    color: aqua;
+    font-style: italic;
+}
+.form{
+    background-color: rgb(35, 27, 27);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 100px;
+    height: 630px;
+    width: 600px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px white;
+    display: grid;
+
+    
+}
+.container{
+    display: grid;
+    margin-top: none;
+    gap: 50px;
+    text-align: left;
+}
+input[type=text]{
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: yellow;
+
+}
+input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: yellow;
+    
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: yellow;
+}
+label{
+    font-style: italic;
+}
+input:checked{
+    background-color: lightcyan;
+    color: white;
+}
+
+
+
+
+ 
